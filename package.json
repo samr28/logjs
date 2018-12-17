@@ -1,6 +1,6 @@
 {
-  "name": "logjs",
-  "version": "0.0.1",
+  "name": "@samr28/log",
+  "version": "1.0.0",
   "description": "A simple and lightweight logging library",
   "main": "index.js",
   "scripts": {

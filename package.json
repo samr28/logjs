@@ -1,10 +1,13 @@
 {
   "name": "@samr28/log",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "A simple and lightweight logging library",
-  "main": "index.js",
+  "main": "log.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
+  },
+  "jest": {
+    "testMatch": ["<rootDir>/tests/**/*.test.js"]
   },
   "repository": {
     "type": "git",
@@ -15,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/samr28/logjs/issues"
   },
-  "homepage": "https://github.com/samr28/logjs#readme"
+  "homepage": "https://github.com/samr28/logjs#readme",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
 }
